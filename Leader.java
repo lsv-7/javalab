@@ -1,18 +1,13 @@
 class Leader{
     public static void main(String args[])
     {
-        int a[]={56,72,9,8};
-        int i,n;
-        n=a.length; 
-        for(i=0;i<=n;i++)
+        int a[]={9,4,5,3};
+        int i; 
+        for(i=0;i<a.length-1;i++)
         {
             if(a[i]>a[i+1])
-            {
-            System.out.println(a[i]+" ");
-            i=i++;
-            break;
-            }
+            System.out.println(a[i]);
         }
-
+            
     }
 }
